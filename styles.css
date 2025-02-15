@@ -1,12 +1,13 @@
-
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   text-align: center;
 }
-.container, body, .qr-container {
+.container,
+body,
+.qr-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,25 +22,28 @@ body {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 .qr-container {
- background-color: hsl(0, 0%, 100%);
- padding: 15px 0;
- min-height: 340px;
- width: 280px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px 0;
+  min-height: 340px;
+  width: 280px;
 }
-.container, footer {
+.container,
+footer {
   margin-top: auto;
 }
 .qr-container div {
   padding: 0 10px;
   width: 230px;
 }
-.qr, .qr-container {
+.qr,
+.qr-container {
   border-radius: 15px;
 }
 .qr {
   width: 250px;
 }
-.attribution, footer {
+.attribution,
+footer {
   text-align: center;
 }
 h1 {
